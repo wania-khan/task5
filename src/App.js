@@ -29,7 +29,7 @@ function App() {
       <span className='sp4'>Recent Posts</span>
       <span className='sp5'>View All</span>
       </div>
-   <div className='container3a'>
+    <div className='content-container'>
     <div className='left-block1'>
     <span className='sp6'>Making a design system from scratch</span><br></br><br></br>
       <span className='sp7'><span className='sp7a'>12 Feb 2020 </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -42,9 +42,10 @@ function App() {
     <div className='right-block1'>
 
     </div>
+    </div>
+    
    </div>
   </div>
-    </div>
   );
 }
 
