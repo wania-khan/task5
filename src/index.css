@@ -116,7 +116,7 @@ font-weight: 400;
 line-height: 60px;
 padding-left: 11.3rem;
 }
-.img2, .img3{
+.img2, .img3, .img4{
   width: 246px;
 height: 180px;
 top: 1088px;
@@ -126,20 +126,20 @@ border-radius: 3%;
 opacity: 0px;
 
 }
-.container4{
+.container4, .container5, .container6{
   display: flex;
   gap: 10px;
   padding-left: 11.3rem;
 }
-.box2 {
+.box2, .box4, .box6 {
   text-align: left;
   flex: 2;
 }
 
-.box1 {
+.box1 , .box3, .box5{
 justify-content: center;
 }
-.sp12{
+.sp12, .sp15, .sp18{
   font-family: Heebo2;
 font-size: 30px;
 font-weight: 700;
@@ -159,7 +159,7 @@ font-weight: 100;
 line-height: 60px;
 text-align: center;
 }
-.sp13{
+.sp13, .sp16, .sp19{
   font-family: Heebo1;
   color: #8695A4;
 font-size: 20px;
@@ -167,7 +167,7 @@ font-weight: 400;
 line-height: 29.38px;
 text-align: left;
 }
-.sp14{
+.sp14, .sp17, .sp20{
   font-family: Heebo1;
   font-size: 16px;
   font-weight: 400;
