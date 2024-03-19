@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import img1 from './imgs/img1.png';
 import img2 from './imgs/img2.png';
-
+import img3 from './imgs/img3.png';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,6 @@ function App() {
   <span className='sp2'>Blog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span className='sp3'>Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
   </div>
-  <br></br>
   {/* ------Second Section------ */}
   <div className='container2'>
   <div className="left-block">
@@ -65,6 +64,21 @@ function App() {
      <br></br><br></br>
      <span className='disc'>2020</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      <span className='sp13'>Dashboard</span>
+     <br></br>
+     <span className='sp14'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+       Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
+    </div>
+    </div>
+    <hr className='hr'></hr>
+    <div className='container5'>
+    <div className='box1'>
+    <img className='img3' src={img3} alt='error!'/>
+    </div>
+    <div className='box2'>
+     <span className='sp12'>Vibrant Portraits of 2020</span>
+     <br></br><br></br>
+     <span className='disc'>2018</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <span className='sp13'>Illustrator</span>
      <br></br>
      <span className='sp14'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>

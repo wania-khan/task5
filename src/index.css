@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   color:#21243D;
 
 }
@@ -116,7 +116,7 @@ font-weight: 400;
 line-height: 60px;
 padding-left: 11.3rem;
 }
-.img2{
+.img2, .img3{
   width: 246px;
 height: 180px;
 top: 1088px;
@@ -174,10 +174,11 @@ text-align: left;
   line-height: 23.5px;
   text-align: left;
   color: #21243D;   
-  padding-right: 5%;
+  padding-top: 5%;
 }
 .hr{
-  width: 56%;
   color:#E0E0E0;
-  padding-left: 15%;
+  width: 59%;
+  border: 1px 0px 0px 0px;
+  padding-left: 11.3%;
 }
