@@ -1,5 +1,7 @@
 * {
   outline: 1px solid red;
+  color:#21243D;
+
 }
 @font-face {
   font-family: Heebo1;
@@ -23,13 +25,15 @@
 }
 .left-block {
   flex: 1; 
-  padding: 4rem; 
   text-align: left;
+  padding: 11rem;
 }
 
 .right-block {
-  flex: 0; 
-  padding: 5rem; 
+display: flex;
+padding: 5rem; 
+justify-content: space-around;
+margin-top: 11.3%;
 }
 .right-block img{
   width: 243px;
@@ -63,25 +67,27 @@ letter-spacing: 0em;
   background-color: #EDF7FA;
   display: flex;
   flex-direction: column; 
-  padding: 20px; 
+  padding: 1rem;
 }
 .div33{
-  display: flex;
-  justify-content: space-around;
   font-family: Heebo1;
   font-weight: 400;
   line-height: 5em;
 }
+.inner-container{
+  display: flex;
+  justify-content: space-between;
+}
 .content-container {
   display: grid;
-  grid-template-columns: 410px 410px; 
+  grid-template-columns: 430px 440px; 
   justify-content: center;
   font-family: Heebo1;
 letter-spacing: 0px;
 text-align: left;  
-gap: 15px;
-margin-top: 3%;
-margin-bottom: 5%s;
+gap: 23px;
+margin-bottom: 1%;
+padding: 0rem; 
 }
 .block{
   background: #FFFFFF;
@@ -89,15 +95,89 @@ margin-bottom: 5%s;
 }
 .sp4{
   font-size: 1.1em;
+  padding-left: 10rem;
 }
 .sp5{
   color: #00A8CC;
   font-size: 1em;
+  padding-right: 10rem;
 }
-.sp6{
+.sp6, .sp9{
   font-family: Heebo2;
 font-size: 26px;
 font-weight: 700;
 line-height: 38px;
 letter-spacing: 0px;
+}
+.p3{
+  font-family: Heebo1;
+font-size: 22px;
+font-weight: 400;
+line-height: 60px;
+padding-left: 11.3rem;
+}
+.img2{
+  width: 246px;
+height: 180px;
+top: 1088px;
+left: 146px;
+gap: 0px;
+border-radius: 3%;
+opacity: 0px;
+
+}
+.container4{
+  display: flex;
+  gap: 10px;
+  padding-left: 11.3rem;
+}
+.box2 {
+  text-align: left;
+  flex: 2;
+}
+
+.box1 {
+justify-content: center;
+}
+.sp12{
+  font-family: Heebo2;
+font-size: 30px;
+font-weight: 700;
+line-height: 44.06px;
+text-align: left;
+}
+.disc{
+background-color: #21243D;
+color: #FFFFFF;
+width: 7%;
+height: 4%;
+padding: 0.5%;
+border-radius: 11px 10px 11px 11px;
+font-family: Heebo2;
+font-size: 18px;
+font-weight: 100;
+line-height: 60px;
+text-align: center;
+}
+.sp13{
+  font-family: Heebo1;
+  color: #8695A4;
+font-size: 20px;
+font-weight: 400;
+line-height: 29.38px;
+text-align: left;
+}
+.sp14{
+  font-family: Heebo1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243D;   
+  padding-right: 5%;
+}
+.hr{
+  width: 56%;
+  color:#E0E0E0;
+  padding-left: 15%;
 }

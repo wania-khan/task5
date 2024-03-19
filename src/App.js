@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 import img1 from './imgs/img1.png';
+import img2 from './imgs/img2.png';
+
 function App() {
   return (
     <div className="App">
@@ -26,8 +28,10 @@ function App() {
   {/* ------Third Section------ */}
   <div className='container3'>
   <div className='div33'>
+    <div className='inner-container'>
       <span className='sp4'>Recent Posts</span>
       <span className='sp5'>View All</span>
+      </div>
       </div>
     <div className='content-container'>
     <div className='block'>
@@ -40,11 +44,33 @@ function App() {
        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
     </div>
     <div className='block'>
-      Block2
+    <span className='sp9' style={{textAlign: 'left'}}>Creating pixel perfect icons in Figma</span><br></br><br></br>
+      <span className='sp10'><span className='sp10a'>12 Feb 2020 </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span className='sp10b'>|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span className='sp10c'>Figma, Icon Design</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span><br></br><br></br>
+      <span className='sp11'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+       Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
     </div>
     </div>
-    
    </div>
+   <p className='p3'  style={{textAlign: 'left'}}>Featured works</p>
+    {/* ------Fourth Section------ */}
+    <div className='container4'>
+    <div className='box1'>
+    <img className='img2' src={img2} alt='error!'/>
+    </div>
+    <div className='box2'>
+     <span className='sp12'>Designing Dashboards</span>
+     <br></br><br></br>
+     <span className='disc'>2020</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <span className='sp13'>Dashboard</span>
+     <br></br>
+     <span className='sp14'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+       Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
+    </div>
+    </div>
+    <hr className='hr'></hr>
   </div>
   );
 }
