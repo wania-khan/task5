@@ -30,9 +30,11 @@ function App() {
   <div className='container3'>
   <div className='div33'>
     <div className='inner-container'>
+      <div className='fluid-container'>
       <span className='sp4'>Recent Posts</span>
       <span className='sp5'>View All</span>
       </div>
+        </div>
       </div>
     <div className='content-container'>
     <div className='block'>
@@ -93,21 +95,23 @@ function App() {
     <img className='img4' src={img4} alt='error!'/>
     </div>
     <div className='box6'>
-     <span className='sp18'>Vibrant Portraits of 2020</span>
+     <span className='sp18'>36 Days of Malayalam type</span>
      <br></br><br></br>
      <span className='disc'>2018</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <span className='sp19'>Illustration</span>
+     <span className='sp19'>Typography</span>
      <br></br>
      <span className='sp20'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
     </div>
     </div>
     <hr className='hr'></hr>
-    <br></br>
+    <br></br><br></br><br></br>
     {/* ------Fifth Section------ */}
     <div className='container7'>
-
-    </div>
+  <div className='social-icons'>
+    
+  </div>
+</div>
   </div>
   );
 }
