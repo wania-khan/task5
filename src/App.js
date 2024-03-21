@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import img1 from './imgs/img1.png';
+import Hero from './components/hero.js';
 import img2 from './imgs/img2.png';
 import img3 from './imgs/img3.png';
 import img4 from './imgs/img4.png';
@@ -15,17 +15,7 @@ function App() {
   <span className='sp3'>Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
   </div>
   {/* ------Second Section------ */}
-  <div className='container2'>
-  <div className="left-block">
-  <p className='p1'>Hi, I am John, Creative Technologist</p>
-  <p className='p2'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-  <br></br><br></br>
-  <button className='btn1'>Download Resume</button>
-  </div>
-  <div className="right-block">
-  <img className='img1' src={img1} alt='error!'/>
-  </div>
-  </div>
+  <Hero></Hero>
   {/* ------Third Section------ */}
   <div className='container3'>
   <div className='div33'>
