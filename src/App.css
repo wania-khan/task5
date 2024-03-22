@@ -5,11 +5,11 @@
 }
 @font-face {
   font-family: Heebo1;
-  src: url(Heebo-Regular.ttf);
+  src: url(./fonts/Heebo-Regular.ttf);
 }
 @font-face {
   font-family: Heebo2;
-  src: url(Heebo-Bold.ttf);
+  src: url(./fonts/Heebo-Bold.ttf);
 }
 .container1{
   display: flex;
@@ -32,7 +32,8 @@
   
   .right-block {
   width: 40%;
-  padding-top: 53px;
+  padding-left: 53px;
+  padding-top: 55px;
   }
   .description {
     font-family: Heebo1;
@@ -45,7 +46,7 @@
     font-size: 44px;
     line-height: 60px;
     color: #21243D;
-    font-family: Heebo1;
+    font-family: Heebo2;
     font-weight: 700;
   }
   .right-block img{
@@ -66,7 +67,7 @@
   background-color: #EDF7FA;
   display: flex;
   flex-direction: column; 
-  padding: 1rem;
+  max-width: 100%; 
 }
 .div33{
   font-family: Heebo1;
