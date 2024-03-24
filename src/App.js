@@ -2,9 +2,8 @@ import './App.css';
 import React from 'react';
 import Hero from './assets/components/hero.js';
 import Hero1 from './assets/components/hero1.js';
-import img2 from './assets/imgs/img2.png';
-import img3 from './assets/imgs/img3.png';
-import img4 from './assets/imgs/img4.png';
+import Hero2 from './assets/components/hero2.js';
+import Hero3 from './assets/components/hero3.js'
 
 function App() {
   return (
@@ -23,16 +22,11 @@ function App() {
   <div className='container3'>
   <Hero1/>
   </div>
-   <p className='p3'  style={{textAlign: 'left'}}>Featured works</p>
     {/* ------Fourth Section------ */}
-    
+    <Hero2/>
     <br></br><br></br><br></br>
     {/* ------Fifth Section------ */}
-    <div className='container7'>
-  <div className='social-icons'>
-    
-  </div>
-</div>
+    <Hero3/>
   </div>
   );
 }

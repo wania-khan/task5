@@ -8,7 +8,6 @@ function Hero1(){
       <span className='sp4'>Recent Posts</span>
       <span className='sp5'>View All</span>
       </div>
-      <br></br>
       <div className='coloumn-container'>
         <div className='block'>
         <span className='sp6'>Making a design system from scratch</span>
