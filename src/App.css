@@ -187,3 +187,15 @@ opacity: 0px;
     max-width: 858px;
     border: 1px 0px 0px 0px;
 }
+.social-icons{
+  display: flex;
+  margin: auto;
+  max-width: 858px;
+  justify-content: center;
+}
+.copyright-img{
+  display: flex;
+  margin: auto;
+  max-width: 858px;
+  justify-content: center;
+}
