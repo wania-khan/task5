@@ -14,8 +14,8 @@ function Hero() {
   <button className='btn1'>Download Resume</button>
   </div>
   <div className="right-block">
-  <div className='inner-container'>
-  <img className='' src={img1} alt='error!'/>
+  <div className='inner-cont'>
+  <img className='img1' src={img1} alt='error!'/>
   </div>
   </div>
   </div>

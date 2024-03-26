@@ -27,6 +27,7 @@ function App() {
     <br></br><br></br><br></br><br></br><br></br><br></br>
     {/* ------Fifth Section------ */}
     <Hero3/>
+    <br></br>
   </div>
   );
 }
