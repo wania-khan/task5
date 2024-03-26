@@ -42,6 +42,7 @@
     line-height: 23.5px;
     font-weight: 400;
     max-width: 497px;
+    margin-bottom: 0%;
 }
 .title {
     font-family: Heebo1;
@@ -50,12 +51,24 @@
     color: #21243D;
     font-family: Heebo2;
     font-weight: 700;
+    margin-bottom: 0%;
+}
+.inner-container{
+  position: relative;
+  width: 243px;
+  height: 313px; 
+  background-color:  #EDF7FA;
+  /* border-radius: 100%;   */
+  clip-path: circle();
 }
 .right-block img{
+    position: absolute;
     width: 243px;
-    height: 293px; 
+    height: 313px; 
+    /* border-radius:100%; */
     clip-path: circle();
-    border-radius: 50%;
+    right:-10px;
+    top:-10px; 
 }
 .btn1{
     font-family: Heebo1;

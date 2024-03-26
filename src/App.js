@@ -17,7 +17,7 @@ function App() {
   <br></br><br></br>
   {/* ------Second Section------ */}
   <Hero/>
-  <br></br><br></br>
+  <br></br><br></br><br></br>
   {/* ------Third Section------ */}
   <div className='container3'>
   <Hero1/>
