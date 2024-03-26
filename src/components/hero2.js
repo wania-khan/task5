@@ -1,7 +1,7 @@
 import React from 'react';
-import img2 from './imgs/img2.png';
-import img3 from './imgs/img3.png';
-import img4 from './imgs/img4.png';
+import img2 from '../assets/imgs/img2.png';
+import img3 from '../assets/imgs/img3.png';
+import img4 from '../assets/imgs/img4.png';
 
 function Hero2(){
     return(

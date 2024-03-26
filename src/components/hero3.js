@@ -1,9 +1,9 @@
 import React from 'react';
-import fb from './imgs/fb.svg';
-import insta from './imgs/insta.svg';
-import twitter from './imgs/twitter.svg';
-import linkedin from './imgs/Linkedin.svg';
-import Copyrights from './imgs/Copyright ©2020 All rights reserved.svg';
+import fb from '../assets/imgs/fb.svg';
+import insta from '../assets/imgs/insta.svg';
+import twitter from '../assets/imgs/twitter.svg';
+import linkedin from '../assets/imgs/Linkedin.svg';
+import Copyrights from '../assets/imgs/Copyright ©2020 All rights reserved.svg';
 
 function Hero3(){
     return(

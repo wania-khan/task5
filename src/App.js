@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import Hero from './assets/components/hero.js';
-import Hero1 from './assets/components/hero1.js';
-import Hero2 from './assets/components/hero2.js';
-import Hero3 from './assets/components/hero3.js'
+import Hero from './components/hero.js';
+import Hero1 from './components/hero1.js';
+import Hero2 from './components/hero2.js';
+import Hero3 from './components/hero3.js'
 
 function App() {
   return (

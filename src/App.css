@@ -19,6 +19,9 @@
   line-height: 4em;
   letter-spacing: 0em;
 }
+.container1a{
+  font-family: Heebo2;
+}
 .container2{
   max-width: 858px;
   margin: auto;
@@ -41,6 +44,7 @@
     max-width: 497px;
 }
 .title {
+    font-family: Heebo1;
     font-size: 44px;
     line-height: 60px;
     color: #21243D;
@@ -49,17 +53,19 @@
 }
 .right-block img{
     width: 243px;
-    height: 243px; 
+    height: 293px; 
     clip-path: circle();
     border-radius: 50%;
 }
 .btn1{
+    font-family: Heebo1;
     border-radius: 2px;
     border: solid 2px #FF6464;
     background: #FF6464;
     color: #FFFFFF;
     height: 47px;
     width: 208px;
+    font-size: 20px
 }
 .container3{
   max-width: 100%;
