@@ -22,6 +22,7 @@
 }
 .container1a{
   font-family: Heebo2;
+  cursor: pointer;
 }
 .container2{
   max-width: 858px;
@@ -78,7 +79,8 @@
     color: #FFFFFF;
     height: 47px;
     width: 208px;
-    font-size: 20px
+    font-size: 20px;
+    cursor: pointer;
 }
 .container3{
   max-width: 100%;
@@ -95,13 +97,14 @@
   font-family: Heebo1;
 }
 .sp4{
-  font-size: 1.1em;
+  font-size: 22px;
   font-family: Heebo1;
 }
 .sp5{
   color: #00A8CC;
-  font-size: 1em;
+  font-size: 16px;
   font-family: Heebo1;
+  cursor: pointer;
 }
 .coloumn-container{
   max-width: 858px;
@@ -214,6 +217,7 @@ border-radius: 3%;
   margin: auto;
   max-width: 858px;
   justify-content: center;
+  cursor: pointer;
 }
 .copyright-img{
   display: flex;
