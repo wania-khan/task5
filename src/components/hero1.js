@@ -12,7 +12,7 @@ function Hero1(){
         <div className='block'>
         <span className='sp6'>Making a design system from scratch</span>
         <br></br><br></br><br></br>
-        <span className='sp7'>12 Feb 2020&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Design, Pattern</span>
+        <span className='sp7'>12 Feb 2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design, Pattern</span>
         <br></br><br></br><br></br>
         <span className='sp8'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
@@ -20,7 +20,7 @@ function Hero1(){
         <div className='block'>
           <span className='sp6'>Creating pixel perfect icons in Figma</span>
           <br></br><br></br><br></br>
-          <span className='sp7'>12 Feb 2020&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Figma, Icon Design</span>
+          <span className='sp7'>12 Feb 2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figma, Icon Design</span>
           <br></br><br></br><br></br>
           <span className='sp8'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>

@@ -24,7 +24,7 @@ function App() {
   </div>
     {/* ------Fourth Section------ */}
     <Hero2/>
-    <br></br><br></br><br></br><br></br><br></br><br></br>
+    <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
     {/* ------Fifth Section------ */}
     <Hero3/>
     <br></br>

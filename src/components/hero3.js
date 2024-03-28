@@ -18,7 +18,7 @@ function Hero3(){
     <br></br><br></br>
     <div className='copyright-img'>
     <img src={Copyrights} alt='error'></img>
-    </div>
+    </div><br></br>
     </div>
     </>
     );

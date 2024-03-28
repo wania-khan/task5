@@ -46,7 +46,6 @@
     margin-bottom: 0%;
 }
 .title {
-    font-family: Heebo1;
     font-size: 44px;
     line-height: 60px;
     color: #21243D;
@@ -97,10 +96,12 @@
 }
 .sp4{
   font-size: 1.1em;
+  font-family: Heebo1;
 }
 .sp5{
   color: #00A8CC;
   font-size: 1em;
+  font-family: Heebo1;
 }
 .coloumn-container{
   max-width: 858px;
@@ -113,9 +114,11 @@
 .block{
   background-color: #FFFFFF;
   padding: 15px;
+  padding-bottom: 0%;
   width: 418px;
   height: 295px;
   text-align: left;
+  border-radius: 4px;
 }
 .sp6{
   font-family: Heebo2;
@@ -158,7 +161,7 @@ border-radius: 3%;
   display: flex;
   margin: auto;
   max-width: 858px;
-  gap: 10px;
+  gap: 20px;
 }
 .block-img{
   padding-top: 12px;
