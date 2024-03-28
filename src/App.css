@@ -217,6 +217,8 @@ border-radius: 3%;
   margin: auto;
   max-width: 858px;
   justify-content: center;
+}
+.ig, .fb, .twt, .li{
   cursor: pointer;
 }
 .copyright-img{

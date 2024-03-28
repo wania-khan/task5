@@ -10,10 +10,10 @@ function Hero3(){
     <>
     <div className='container5'>
     <div className='social-icons'>
-    <img src={fb} alt='error'></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <img src={insta} alt='error'></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <img src={twitter} alt='error'></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <img src={linkedin}alt='error'></img>
+    <img src={fb} alt='error' className='fb'></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img src={insta} alt='error' className='ig'></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img src={twitter} alt='error' className='twt'></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img src={linkedin}alt='error' className='li'></img>
     </div>
     <br></br><br></br>
     <div className='copyright-img'>
